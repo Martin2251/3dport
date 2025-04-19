@@ -5,3 +5,8 @@ html,body{
   background-color: black;
   color: white;
 }
+
+
+@theme{
+  --color-white-50: #d9ecff;
+}
