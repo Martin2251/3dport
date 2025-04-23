@@ -15,6 +15,7 @@ const Hero = () => {
                     <div className='hero-text'>
                     <h1>Shaping 
                     <span className='slide'>
+                       
                         <span className='wrapper'>
                             {words.map((word) =>(
                                 <span key={word.text} className='flex items-center md:gap-3 gap-1 pb-2'>
@@ -35,6 +36,7 @@ const Hero = () => {
                     <h1>that deliver results</h1>
 
                     </div>
+                    <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>Hi I'm Martin based in London</p>
                 </div>
             </header>
     </div>
