@@ -26,6 +26,7 @@ const Hero = () => {
                                 className='xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50'
                                 
                                 />
+                                <span>{word.text}</span>
 
                                 </span>
                             ))}
