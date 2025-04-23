@@ -1,5 +1,5 @@
 import React from 'react'
-import { Words } from '../constants'
+import { words } from '../constants'
 
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
                     <h1>Shaping 
                     <span className='slide'>
                         <span className='wrapper'>
-                            {Words.map((word) =>(
+                            {words.map((word) =>(
                                 <span key={word.text} className='flex items-center md:gap-3 gap-1 pb-2'>
                                 <img src={word.imgPath} 
                                 alt={word.text}
